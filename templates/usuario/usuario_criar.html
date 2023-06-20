@@ -1,0 +1,36 @@
+{% extends 'template.html' %}
+{% block conteudo %}
+<div  class="vh-100 d-flex align-items-center justify-content-center h-100">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome completo</label>
+            <input type="nome" class="form-control" name="nome" aria-describedby="emailHelp" placeholder="Seu email">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nick name</label>
+            <input type="nome" class="form-control" name="nick_name" aria-describedby="emailHelp" placeholder="Seu email">
+        </div>
+
+        <div class="form-group">
+            <label>Endereço de email</label>
+            <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Seu email">
+            <small class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>
+
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+        </div>
+        
+        <div class="d-flex justify-content-around align-items-center mb-4">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+</div>    
+{% endblock %}

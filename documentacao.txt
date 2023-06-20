@@ -1,0 +1,5 @@
+http://127.0.0.1:5000/usuario/criar
+
+header.html > Barra onde fica o nome do site
+navbar.html > Barra de navegação
+footer.html > Rodapé da pagina

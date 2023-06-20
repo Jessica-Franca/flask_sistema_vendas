@@ -1,0 +1,16 @@
+body {
+    padding-top: 56px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+/*Style pagina de login (http://127.0.0.1:5000/usuario_login)*/
+.title-login {
+    font-weight: bold;
+    color: #5443ee; /* Cor de exemplo */
+    text-decoration: none; /* Remover sublinhado do link */
+    /* Outros estilos personalizados */
+}  
